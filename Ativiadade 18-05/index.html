@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catálogo de Séries</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="container py-4">
+
+  <h1 class="mb-4">Catálogo de Séries</h1>
+
+  <form id="busca-form" class="d-flex gap-2 mb-4">
+    <input type="text" id="busca" class="form-control" placeholder="Ex: Breaking Bad..." />
+    <button type="submit" class="btn btn-primary">Buscar</button>
+  </form>
+
+  <p id="mensagem" class="text-muted"></p>
+  <div id="resultados" class="row row-cols-2 row-cols-md-4 g-3"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

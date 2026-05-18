@@ -1,0 +1,14 @@
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-sem-img {
+  height: 220px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #999;
+}
